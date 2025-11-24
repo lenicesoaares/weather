@@ -2,10 +2,6 @@
 
 Aplicativo de previsão do tempo desenvolvido com HTML, CSS e JavaScript.
 
-## 🌐 Acesso ao App
-
-**URL:** https://lenicesoaares.github.io/weather-app/
-
 ## 📱 Sobre o Projeto
 
 Aplicativo web responsivo para consulta de condições meteorológicas em tempo real, desenvolvido com tecnologias frontend modernas.
