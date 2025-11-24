@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App | Lenice</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🌤️ Weather App</h1>
+        
+        <div class="search-box">
+            <input type="text" id="city-input" placeholder="Enter city name...">
+            <button id="search-btn">Search</button>
+        </div>
+
+        <div class="loading" id="loading">
+            Loading...
+        </div>
+
+        <div class="error-message" id="error-message">
+            City not found. Please try again.
+        </div>
+
+        <div class="weather-card" id="weather-card">
+            <div class="city-name" id="city-name">-</div>
+            <div class="temperature" id="temperature">-</div>
+            <div class="weather-description" id="weather-description">-</div>
+            <img class="weather-icon" id="weather-icon" src="" alt="Weather icon">
+            
+            <div class="weather-details">
+                <div class="detail-item">
+                    <div>💧 Humidity</div>
+                    <div id="humidity">-</div>
+                </div>
+                <div class="detail-item">
+                    <div>💨 Wind Speed</div>
+                    <div id="wind-speed">-</div>
+                </div>
+                <div class="detail-item">
+                    <div>🔽 Min Temp</div>
+                    <div id="temp-min">-</div>
+                </div>
+                <div class="detail-item">
+                    <div>🔼 Max Temp</div>
+                    <div id="temp-max">-</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
