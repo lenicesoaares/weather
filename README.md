@@ -1,4 +1,4 @@
-# Weather App 🌤️
+# Weather 🌤️
 
 Aplicativo de previsão do tempo desenvolvido com HTML, CSS e JavaScript.
 
